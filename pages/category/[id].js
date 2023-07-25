@@ -94,7 +94,7 @@ export default function CategoryPage({
     return (
         <>
             <Head>
-                <title>Cart - TechMart</title>
+                <title>{category.name}s - TechMart</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <Header />
